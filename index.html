@@ -7,36 +7,40 @@
 
 <body>
   <div class="form-container">
-    <h2>MANISARMI</h2>
-    <form id="demoForm">
+    <form method="post"
+      action="https://script.google.com/macros/s/AKfycbzFUwaJGsLC-GyDGWBP1GDs7_Fr6HGTJDdmtH5Znaz_BFPkrRgRe_Sn63e-3fXJL9TZ/exec"
+      name="contact-form">
+      <h2>MANISARMI</h2>
       <label for="name">Full Name</label>
-      <input type="text" id="name" placeholder="Enter your name" />
+      <input type="text" name="your-name" placeholder="Name" />
 
-      <label for="email">Email</label>
-      <input type="email" id="email" placeholder="Enter your email" />
+      <label for="number">Price</label>
+      <input type="number" name="your-price" placeholder="Price" />
 
-      <label for="password">Password</label>
-      <input type="password" id="password" placeholder="Enter your password" />
+     <label for="number">Quantity</label>
+      <input type="number" name="your-qty" placeholder="Qty" />
+
+
+      <label for="number">Number</label>
+      <input type="number" name="your-price" placeholder="Price" />
 
       <label for="name">Full Name</label>
-      <input type="text" id="name" placeholder="Enter your name" />
+      <input type="text" name="your-name" placeholder="Name" />
 
-      <label for="email">Email</label>
-      <input type="email" id="email" placeholder="Enter your email" />
+      <label for="number">Number</label>
+      <input type="number" name="your-price" placeholder="Price" />
 
-      <label for="password">Password</label>
-      <input type="password" id="password" placeholder="Enter your password" />
-
-      <label for="password">Password</label>
-      <input type="password" id="password" placeholder="Enter your password" />
+      <label for="name">Full Name</label>
+      <input type="text" name="your-name" placeholder="Name" />
 
 
 
 
-      <button type="submit">Submit</button>
+      <input type="submit" value="Submit" id="submit">
     </form>
     <p class="success-message" id="successMessage">Form submitted successfully! ✅</p>
-  </div>
+
+    <script src="Google Sheet.js"></script>
 
 </body>
 
