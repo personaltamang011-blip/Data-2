@@ -13,7 +13,7 @@ body {
   border-radius: 10px;
   border: 1px solid #eeeeee;
   box-shadow: 2 60px 60px rgba(0, 0, 0, 0.1);
-  width: 1000px;
+  width: 800px;
   height: 1200px;
 }
 
@@ -63,3 +63,4 @@ input:focus {
   background-color: yellowgreen;
 
 }
+
